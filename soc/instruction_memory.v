@@ -1,4 +1,4 @@
-module instruction_memory #(parameter BIT_WIDTH = 32,
+module Instruction_Memory #(parameter BIT_WIDTH = 32,
                             parameter MEMORY_SIZE = 100)(
     input [BIT_WIDTH - 1:0] ADDRESS,
     output [BIT_WIDTH - 1:0] INSTRUCTION
