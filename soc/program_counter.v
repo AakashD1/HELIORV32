@@ -1,26 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 30.10.2025 02:55:59
-// Design Name: 
-// Module Name: program_counter
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-module program_counter #(parameter BIT_WIDTH = 32)(
+module Program_Counter #(parameter BIT_WIDTH = 32)(
     input clock, reset,
     input [BIT_WIDTH - 1:0] ADDRESS_IN,
     output reg [BIT_WIDTH - 1:0] ADDRESS_OUT
